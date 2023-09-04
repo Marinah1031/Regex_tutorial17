@@ -4,7 +4,7 @@ In this tutorial, we will explore the use of a regular expression (regex) patter
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+Through the use of regex patterns, you are able to efficiently validate an email adress to confirm and ensure they follow the standard format. This method is particularly useful when building larger applications in Node.js or working with mass amounts of data in MongoDB. These are areas where email validation becomes an important part of data integrity and security. 
 
 ## Table of Contents
 
