@@ -25,12 +25,17 @@ Through the use of regex patterns, you are able to efficiently validate an email
 ## Regex Components
 
 ### Anchors
+
+Email Validation Regex: ``` /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z]{2,6})$/ ```
+
 The regex pattern, `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`, is made to match up with email address within the given string. This pattern can be utilized in various methods such as Node.js, or Inquirer and MongoDB.
 
 - `^` (caret): This symbol represents the start of the string. This indicates that the email address must commence at the very start of the string.
 - `$` (dollar sign): This symbol represents the end of the string which indicates that the email address must conclude at the very end of the string.
 
 This pattern in constructed in a method of where it requests the entire email address to follow a specific format from start to finish without counting any characters before and after. By utilizing this regex pattern, you are able to validate any email address to ensure they follow the standard format.
+
+
   
 ### Quantifiers
 
