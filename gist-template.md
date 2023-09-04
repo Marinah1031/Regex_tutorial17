@@ -1,6 +1,6 @@
-# Title (replace with your title)
+# Introduction to Regex: Matching An Email
 
-Introductory paragraph (replace this with your text)
+In this tutorial, we will explore the use of a regular expression (regex) pattern to validate and match email addresses. This regex pattern, /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/, can be employed in various contexts, such as within Node.js applications using libraries like Inquirer or when working with MongoDB databases.
 
 ## Summary
 
@@ -8,14 +8,19 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Table of Contents
 
-- [Anchors](#anchors)
-- [Quantifiers](#quantifiers)
-- [Grouping Constructs](#grouping-constructs)
-- [Bracket Expressions](#bracket-expressions)
-- [Character Classes](#character-classes)
-- [The OR Operator](#the-or-operator)
-- [Flags](#flags)
-- [Character Escapes](#character-escapes)
+- [Introduction to Regex: Matching An Email](#introduction-to-regex-matching-an-email)
+  - [Summary](#summary)
+  - [Table of Contents](#table-of-contents)
+  - [Regex Components](#regex-components)
+    - [Anchors](#anchors)
+    - [Quantifiers](#quantifiers)
+    - [Grouping Constructs](#grouping-constructs)
+    - [Bracket Expressions](#bracket-expressions)
+    - [Character Classes](#character-classes)
+    - [The OR Operator](#the-or-operator)
+    - [Flags](#flags)
+    - [Character Escapes](#character-escapes)
+  - [Author](#author)
 
 ## Regex Components
 
